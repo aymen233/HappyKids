@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tv_happy_kids">50sp</dimen>
+    <dimen name="interface_padding">20dp</dimen>
+    <dimen name="app_icon_padding">8dp</dimen>
+    <dimen name="ET_height">50dp</dimen>
+    <dimen name="Button_height">60dp</dimen>
+    <dimen name="ET_padding">10dp</dimen>
+    <dimen name="ET_margin_top">30dp</dimen>
+    <dimen name="ButtonMargin">15dp</dimen>
+    <dimen name="imgHeight">150dp</dimen>
+    <dimen name="imgWidth">130dp</dimen>
+    <dimen name="img_margin_left">5dp</dimen>
+    <dimen name="tv_margin_left">10dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HappyKids</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="happy_kids">Happy Kids</string>
+    <string name="hint_mail">Saisir votre email</string>
+    <string name="hint_last_name">Saisir votre nom</string>
+    <string name="hint_first_name">Saisir votre prénom</string>
+    <string name="hint_password">Saisir votre mot de passe</string>
+    <string name="hint_confirm_password">Confirmer votre mot de passe</string>
+    <string name="Submit">Valider</string>
+    <string name="tv_signup"><u>S\'inscrire</u></string>
+    <string name="colors">Play Colors</string>
+    <string name="shapes">Learn Colors</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="resultat">resultat</string>
+</resources>

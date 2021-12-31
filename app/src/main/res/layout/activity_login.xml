@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/interface_padding"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_app_icon"
+        style="@style/app_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/face" />
+    </RelativeLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_Email"
+        style="@style/edt_text"
+        app:layout_constraintTop_toBottomOf="@id/rl_app_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="@string/hint_mail">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_password"
+        style="@style/edt_text"
+        app:layout_constraintTop_toBottomOf="@id/edt_Email"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/submit_button"
+        style="@style/submit_button"
+        app:layout_constraintTop_toBottomOf="@id/edt_password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/Submit">
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue_Aquamarine"
+        app:layout_constraintTop_toBottomOf="@id/submit_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="24sp"
+        android:text="@string/tv_signup"
+        android:layout_marginTop="@dimen/ET_margin_top">
+    </com.google.android.material.textview.MaterialTextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

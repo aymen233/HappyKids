@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="Widget.Theme.HappyKids.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.HappyKids.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="app_icon" parent="Theme.MaterialComponents">
+        <item name="android:padding">@dimen/app_icon_padding</item>
+        <item name="android:background">@drawable/circle_green</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+    <style name="edt_text" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ET_height</item>
+        <item name="android:layout_marginTop">@dimen/ET_margin_top</item>
+        <item name="android:background">@drawable/rectangle_blue</item>
+        <item name="android:padding">@dimen/ET_padding</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="submit_button" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/Button_height</item>
+        <item name="android:layout_marginTop">@dimen/ET_margin_top</item>
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="color_button" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/ET_height</item>
+        <item name="android:layout_margin">@dimen/ButtonMargin</item>
+    </style>
+</resources>

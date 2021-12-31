@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/interface_padding"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Bt_color"
+        style="@style/submit_button"
+        android:layout_width="match_parent"
+        android:text="@string/colors"
+        app:layout_constraintTop_toTopOf="parent">
+    </com.google.android.material.button.MaterialButton>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Bt_shape"
+        style="@style/submit_button"
+        android:text="@string/shapes"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/Bt_color"
+        android:layout_marginTop="@dimen/ET_margin_top">
+    </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
